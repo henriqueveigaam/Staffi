@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F4F7FC;
+  
+}
+aside{
+    background-color:   #0f172a;
+}
+form{
+    border-radius: 10px;
+}
+
+#subtitle{
+    color: #6C757D;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+/*Tirando o brilho azul dos inputs e estilizando-os */
+.form-control{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+}
+.form-select{
+   border: 1px solid #cccccc;
+    box-shadow: 0 0 0 rgba(0, 134, 255, 0.5);
+}
+.form-control:focus{
+    border-color: #0086ff;
+    box-shadow: 0 0 5px rgba(0, 134, 255, 0.5);
+}
+h1{
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+p{
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.nav-link{
+    
+   border-radius: 10px;
+    transition: color 0.3s ease;
+}
+img{
+    margin-top: -40px;
+    margin-bottom: -30px;
+    margin-left: -30px;
+}
+.nav-link:hover i{
+    color: inherit !important;
+}
+.nav-link:hover{
+    color: #0458ad !important;
+}
+
+.main-content{
+    margin-left: 40px;
+}
+.card{
+    border-radius: 5px;
+}
+.main-content{
+    margin-left: 5px;
+    padding: 30px;
+}
+.topbar{
+    margin-bottom: 30px;
+}
+.banner{
+    background-color: #eef3ff;
+    border-radius: 24px;
+    min-height: 260px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.banner h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111827;
+}
+.banner p{
+    color: #4b5563;
+    font-size: 1.1rem;
+}
+.card-home{
+    border: none;
+    border-radius: 24px;
+    padding: 30px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.03);
+    transition: 0.2s;
+}
+.card-home:hover{
+    transform: translateY(-5px);
+}
+.icon-box{
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.btn{
+    border-radius: 10px !important;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+.status-box{
+    margin-top: 30px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.03);
+}
+.btn-funcionario{
+    border: 1px solid #0891b2;
+    color: #0891b2;
+}
+.btn-funcionario:hover{
+    background-color: #0891b2;
+    color: white !important;
+}
+.btn-relatorio{
+    border: 1px solid #7c3aed;
+    color: #7c3aed;
+}
+.btn-relatorio:hover{
+    background-color: #7c3aed;
+    color: white !important;
+}
